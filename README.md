@@ -1,2 +1,5 @@
-# network_descover_tool
-tool use to descover network 
+# SecureMind Team
+Network_Descover_tool
+
+## Run
+python main.py
