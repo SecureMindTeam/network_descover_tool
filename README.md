@@ -28,3 +28,22 @@ Before running this tool, ensure you have the following:
    ```bash
    git clone [https://github.com/YourUsername/network-discover-tool.git](https://github.com/YourUsername/network-discover-tool.git)
    cd network-discover-tool
+2. pip install -r requirements.txt
+
+## 🚀 Usage
+sudo python main.py
+
+## 📊 Example Output
+------------------------------ Live Host Machine ------------------------------
+*******************************************************************************
+   _____                            __  __ _           _ 
+  / ____|                          |  \/  (_)         | |
+ | (___   ___  ___ _   _ _ __ ___  | \  / |_ _ __   __| |
+  \___ \ / _ \/ __| | | | '__/ _ \ | |\/| | | '_ \ / _` |
+  ____) |  __/ (__| |_| | | |  __/ | |  | | | | | | (_| |
+ |_____/ \___|\___|\__,_|_|  \___| |_|  |_|_|_| |_|\__,_|
+                                                         
+*******************************************************************************
+src Ip Is > 192.168.1.1   src Mac Is >  00:1A:2B:3C:4D:5E
+src Ip Is > 192.168.1.5   src Mac Is >  AA:BB:CC:DD:EE:FF
+
