@@ -6,25 +6,25 @@
   <img src="https://img.shields.io/badge/Blue_Team-SecureMind-blue?style=for-the-badge" alt="Blue Team">
 </div>
 
-## 📖 نبذة عن الأداة (Overview)
-أداة **Network Discover Tool** هي أداة سريعة وفعالة تم تطويرها بواسطة فريق **SecureMind (Blue Team)**. تعتمد الأداة على بروتوكول **ARP (Address Resolution Protocol)** لاكتشاف الأجهزة الحية المتصلة بالشبكة المحلية (LAN). 
+## 📖 Overview
+The **Network Discover Tool** is a fast, efficient, and lightweight utility developed by the **SecureMind (Blue Team)**. Operating on the **ARP (Address Resolution Protocol)**, this tool is designed to actively discover live hosts connected to a Local Area Network (LAN).
 
-تعتبر هذه الأداة مفيدة جداً لمحللي مركز العمليات الأمنية (SOC) ومسؤولي الأنظمة لعمل حصر للأصول (Asset Discovery) واكتشاف أي أجهزة غير مصرح بها داخل الشبكة.
+As a foundational step in network security, asset discovery is crucial for Security Operations Center (SOC) analysts and system administrators to identify active machines and detect unauthorized or rogue devices within the network environment.
 
-## ✨ المميزات (Features)
-* إرسال حزم مسح (ARP Requests) لاكتشاف الأجهزة الحية.
-* إظهار عنوان الـ IP وعنوان الـ MAC للأجهزة المكتشفة.
-* واجهة سطر أوامر (CLI) منسقة واحترافية باستخدام مكتبتي `rich` و `pyfiglet`.
-* خفيفة الوزن وسريعة التنفيذ.
+## ✨ Features
+* **Active Host Discovery:** Broadcasts ARP requests to identify live devices on the network.
+* **Detailed Output:** Extracts and displays both the IP Address and the Hardware (MAC) Address of responding hosts.
+* **Professional CLI:** Features a styled, easy-to-read command-line interface powered by `rich` and `pyfiglet`.
+* **Lightweight:** Minimal dependencies and rapid execution.
 
-## 🛠️ المتطلبات الأساسية (Prerequisites)
-قبل تشغيل الأداة، تأكد من توفر الآتي:
-* **Python 3.x** مثبت على نظامك.
-* صلاحيات المسؤول (**Root/Administrator**) لأن مكتبة `scapy` تتطلب هذه الصلاحيات لإرسال حزم البيانات (Raw Packets) على مستوى الشبكة.
+## 🛠️ Prerequisites
+Before running this tool, ensure you have the following:
+* **Python 3.x** installed on your system.
+* **Root/Administrator Privileges:** Operating on the network layer to craft and send raw packets via `scapy` requires elevated permissions.
 
-## ⚙️ التثبيت (Installation)
+## ⚙️ Installation
 
-1. قم بعمل استنساخ (Clone) للمستودع:
+1. Clone the repository to your local machine:
    ```bash
    git clone [https://github.com/YourUsername/network-discover-tool.git](https://github.com/YourUsername/network-discover-tool.git)
    cd network-discover-tool
