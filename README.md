@@ -20,8 +20,15 @@ As a foundational step in network security, asset discovery is crucial for Secur
 ## 🛠️ Prerequisites
 Before running this tool, ensure you have the following:
 * **Python 3.x** installed on your system.
-* **Root/Administrator Privileges:** Operating on the network layer to craft and send raw packets via `scapy` requires elevated permissions.
+* **Privileges:** You must run the tool with **Root** (Linux/macOS) or **Administrator** (Windows) privileges.
 
+### 🐧 For Linux Users:
+No additional software is required. Just run the script using `sudo`.
+
+### 🪟 For Windows Users:
+`scapy` requires a packet capture driver to forge and sniff network packets on Windows. 
+* Please download and install [Npcap](https://npcap.com/) (Ensure "Install Npcap in WinPcap API-compatible Mode" is checked during installation).
+  
 ## ⚙️ Installation
 
 1. Clone the repository to your local machine:
